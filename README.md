@@ -32,7 +32,7 @@ The project mainly aimed to put into practice knowledge of TypeScript, Tailwind,
 
 ## How to test
 
-You can access the project here: https://to-do-app-eight-dusky.vercel.app/
+You can access the project here: https://to-do-app-ten-sand.vercel.app/
 
 Or run on your machine:
 
