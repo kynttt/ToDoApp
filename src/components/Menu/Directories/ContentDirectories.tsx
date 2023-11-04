@@ -30,6 +30,11 @@ const ContentDirectories: React.FC<{ classActive: string }> = ({
     setModalDirIsShown(false);
   };
 
+  const buttonStyle = {
+    backgroundColor: "#007bff", // Replace with the desired background color
+    // You can also define other inline styles here, like text color, padding, etc.
+  };
+
   return (
     <>
       {modalDirIsShown && (
@@ -49,6 +54,7 @@ const ContentDirectories: React.FC<{ classActive: string }> = ({
       <button
         onClick={() => setModalDirIsShown(true)}
         className="px-3 py-1 border-slate-300 dark:border-slate-700 border-2 ml-9 mt-2 rounded-md border-dashed hover:text-violet-500"
+        style={buttonStyle}
       >
         + New
       </button>

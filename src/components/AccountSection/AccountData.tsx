@@ -20,7 +20,7 @@ const AccountData: React.FC = () => {
     <LayoutMenus
       menuOpen={menuOpen}
       closeMenuHandler={closeMenuHandler}
-      className="top-0 right-0 "
+      className="top-0 left-0 "
     >
       <section className="p-5 flex flex-col h-full">
         <span className="flex items-center mx-auto">

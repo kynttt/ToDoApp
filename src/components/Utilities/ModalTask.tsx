@@ -110,6 +110,12 @@ const ModalCreateTask: React.FC<{
       onClose();
     }
   };
+
+  const buttonStyle = {
+    backgroundColor: "#007bff", // Replace with the desired background color
+    // You can also define other inline styles here, like text color, padding, etc.
+  };
+
   return (
     <Modal onClose={onClose} title={nameForm}>
       <form
@@ -176,7 +182,7 @@ const ModalCreateTask: React.FC<{
           setChecked={setIsCompleted}
           label="Mark as completed"
         />
-        <button type="submit" className="btn mt-5">
+        <button type="submit" className="btn mt-5" style={buttonStyle}>
           {nameForm}
         </button>
       </form>

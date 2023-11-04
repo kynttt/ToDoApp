@@ -34,7 +34,7 @@ const Notification: React.FC = () => {
         className={`relative ${tasksToShow.length ? classHasNotification : ""}`}
         title="see notifications"
       >
-        <IconBell className="fill-violet-600 w-5 h-5 md:w-6 md:h-6 dark:fill-violet-800" />
+        <IconBell className="fill-blue-600 w-5 h-5 md:w-6 md:h-6 dark:fill-blue-800" />
       </button>
       {notificationIsVisible && (
         <div className="absolute bg-slate-100 dark:bg-slate-800 top-full rounded-md right-0 p-3 w-52 border border-slate-300 dark:border-slate-700">

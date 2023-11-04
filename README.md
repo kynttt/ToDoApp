@@ -1,10 +1,10 @@
 # ToDo-app
 To-do list website made with React JS, Tailwind CSS, TypeScript, Redux Toolkit and more.
 
-![page initiale](https://gdurl.com/vo_i)
-![add task](https://gdurl.com/Sr9o)
+![page initiale](https://gdurl.com/APRA)
+![add task](https://gdurl.com/DKvIG)
 Dark mode:
-![image](https://gdurl.com/vnkU)
+![image](https://gdurl.com/Sm7D)
 
 ## Description
 
@@ -40,7 +40,7 @@ clone project
 ```
 git clone https://github.com/kynttt/ToDoApp.git
 ```
-go to projet
+go to project
 ```
 cd tasks-app
 ```

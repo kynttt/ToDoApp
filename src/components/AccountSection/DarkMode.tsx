@@ -27,14 +27,21 @@ const DarkMode: React.FC = () => {
     }
   }, [isCurrentDarkmode]);
 
+  const buttonStyle = {
+    backgroundColor: "#007bff", // Replace with the desired background color
+    // You can also define other inline styles here, like text color, padding, etc.
+  };
+
+
   return (
     <button
       className="mt-8 text-left flex items-center justify-between"
-      onClick={toggleDarkMode}
+      onClick={toggleDarkMode} 
+      
     >
       <span className="dark:text-slate-200">Darkmode</span>
       <div className="w-10 h-5 bg-slate-200 rounded-full px-0.5 dark:bg-slate-700/[.3] relative flex items-center dark:justify-end">
-        <div className="w-4 h-4 rounded-full bg-violet-600 absolute"></div>
+        <div className="w-4 h-4 rounded-full bg-violet-600 absolute" style={buttonStyle}></div>
       </div>
     </button>
   );
